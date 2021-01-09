@@ -1310,7 +1310,7 @@ $baseurl: '{{ site.baseurl }}';
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent1, bg);
+		background: _palette(accent6, bg);
 		color: _palette(accent1, fg-bold);
 		height: 100%;
 		max-width: 80%;
@@ -1393,7 +1393,7 @@ $baseurl: '{{ site.baseurl }}';
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
-		height: 3em;
+		height: 4em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -1401,6 +1401,9 @@ $baseurl: '{{ site.baseurl }}';
 		width: 100%;
 		z-index: _misc(z-index-base);
 
+		img {
+			height: 64px;
+		}
 		h1 {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
@@ -1446,6 +1449,7 @@ $baseurl: '{{ site.baseurl }}';
 						letter-spacing: _size(letter-spacing-alt);
 						padding: 0 1.5em;
 						text-transform: uppercase;
+						margin-top: 10px;
 
 						&.menuToggle {
 							outline: 0;
@@ -1505,6 +1509,10 @@ $baseurl: '{{ site.baseurl }}';
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+
+		img {
+			height: 150px;
+		}
 
 		h2 {
 			@include vendor('transform', 'scale(1)');
