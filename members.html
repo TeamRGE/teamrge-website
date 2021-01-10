@@ -7,15 +7,15 @@ title: Members
 </div>
 
 
-<div style="display: inline-block;">
+<div class="member-layout">
 
     {% assign members = site.members | sort %}
     {% for member in members %}
     {% assign name = member[0] %}
     {% assign info = site.members[name] %}
-        <div style="width: 33%; max-width: 340px; max-height: 300px; padding: 50px; text-align: center; float: left; display: inline" >
+        <div class="member-box" >
             <diV>
-               <a href="{{site.baseurl}}/members/{{info.page}}"><img style="height: 150px; box-shadow: none; border-radius: 50%;" src="{{ site.baseurl }}/{{ info.picture }}" alt="{{ info.display_name }}"></a>
+               <a href="{{site.baseurl}}/members/{{info.page}}"><img class="member-box-image" src="{{ site.baseurl }}/{{ info.picture }}" alt="{{ info.display_name }}"></a>
             </diV>
             <div>
                 <b>{{ info.display_name }}</b>
