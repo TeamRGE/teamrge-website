@@ -1,6 +1,3 @@
-# Welcome to Jekyll!
-#
-
 # Site settings
 title: TeamRGE
 description: |
@@ -14,36 +11,173 @@ social:
   twitter: https://twitter.com/TeamRGE
   email: 'mailto:team@teamrge.com?subject=TeamRGE: Contact'
   youtube-square: https://www.youtube.com/channel/UCzsbidFeFG1K2tG7x72vtvQ
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+
+# Members
+members:
+  ruben:
+    name: Ruben
+    display_name: Ruben Sprujit
+    company: Nutanix
+    title: Sr. Technologist
+    picture: assets/images/members/ruben.png
+    social:
+      twitter: https://twitter.com/rspruijt
+      linkedin: https://www.linkedin.com/in/rspruijt
+      email: ruben@rspruijt.com
+    page: ruben-spruijt
+  shawn:
+    name: Shawn
+    display_name: Shawn Bass
+    company: VMware
+    title: CTO - End-User Computing
+    picture: assets/images/members/shawn.png
+    social:
+      twitter: https://twitter.com/shawnbass
+      linkedin: https://www.linkedin.com/in/shawnbass/
+      email: shawn@shawnbass.com
+    page: shawn-bass
+  benny:
+    name: Benny
+    display_name: Dr. Benny Tritsch
+    company: ControlUp
+    title: Technical Evangelist
+    picture: assets/images/members/benny.png
+    social:
+      twitter: https://twitter.com/drtritsch
+      linkedin: https://www.linkedin.com/in/drtritsch/
+    page: benny-tritsch
+  ryan:
+    name: Ryan
+    display_name: Ryan Ververs-Bijkerk
+    company: RawWorks
+    title: Technical Evangelist
+    picture: assets/images/members/ryan.png
+    social:
+      web: https://www.logitblog.com
+      twitter: https://twitter.com/logitblog
+      linkedin: https://www.linkedin.com/in/ryanbijkerk
+      github: https://github.com/RyanBijkerk
+      reddit: https://www.reddit.com/u/ryanbijkerk
+    page: ryan-ververs-bijkerk
+  barry:
+    name: Barry
+    display_name: Barry Schiffer
+    company: eG Innovations
+    title: Pre-Sales Consultant
+    picture: assets/images/members/barry.png
+    page: barry-schiffer
+  bram:
+    name: Bram
+    display_name: Bram Wolfs
+    company: Wolfs IT Solutions
+    title: Consultant
+    picture: assets/images/members/bram.png
+    page: bram-wolfs
+  erik:
+    name: Erik
+    display_name: Erik Bonhorst
+    company: NVIDIA
+    title: Senior Product Manager for EGX and Cloud Native Technologies
+    picture: assets/images/members/erik.png
+    page: erik-bonhorst
+  frank:
+    name: Frank
+    display_name: Frank Anderson
+    company: NetApp
+    title: Principal Technologist
+    picture: assets/images/members/frank.png
+    page: frank-anderson
+  freek:
+    name: Freek
+    display_name: Freek Berson
+    company: Wortell
+    title: Remoting Windows Evangelist
+    picture: assets/images/members/freek.png
+    page: freek-berson
+  gabe:
+    name: Gabe
+    display_name: Gabe Knuth
+    company: VMware
+    title: Sr. Product Line Marketing Manager
+    picture: assets/images/members/gabe.png
+    page: gabe-knuth
+  jits:
+    name: Jits
+    display_name: Jits Langedijk
+    company: NVIDIA
+    title: Sr. Solution Architect
+    picture: assets/images/members/jits.png
+    page: jits-langedijk
+  kristin:
+    name: Kristin
+    display_name: Kristin Griffin
+    company: RDS Gurus
+    title: Managing Partner
+    picture: assets/images/members/kristin.png
+    page: kristin-griffin
+  magnar:
+    name: Magnar
+    display_name: Magnar Johnson
+    company: Firstpoint Bergen
+    title: Owner
+    picture: assets/images/members/magnar.png
+    page: magnar-johnson
+  rasmus:
+    name: Rasmus
+    display_name: Rasmus Raun-Nielsen
+    company: Conecto A/S
+    title: Senior Systemconsultant and Partner
+    picture: assets/images/members/rasmus.png
+    page: rasmus-raun-nielsen
+  thomas:
+    name: Thomas
+    display_name: Thomas Poppelgaard
+    company: Poppelgaard.com
+    title: Independent Consultant and Technology Evangelist
+    picture: assets/images/members/thomas.png
+    page: thomas-poppelgaard
+  rick:
+    name: Rick
+    display_name: Rick Dehlinger
+    company: Citrix
+    title: Principal Solution Architect, Strategic Alliances
+    picture: assets/images/members/rick.png
+    page: rick-dehlinger
+  patrick:
+    name: Patrick
+    display_name: Patrick van den Born
+    company: van den Born IT Consultancy
+    title: Freelance Senior IT Consultant & IT Architect
+    picture: assets/images/members/patrick.png
+    page: patrick-van-den-born
+  rody:
+    name: Rody
+    display_name: Rody Kossen
+    company: PQR
+    title: Lead Consultant
+    picture: assets/images/members/rody.png
+    page: rody-kossen
+  johan:
+    name: Johan
+    display_name: Johan van Amersfoort
+    company: ITQ
+    title: Technologist EUC & AI
+    picture: assets/images/members/johan.png
+    page: johan-van-amersfoort
+  esther:
+    name: Esther
+    display_name: Esther Barthel
+    company: Cognition IT
+    title: Solutions Architect
+    picture: assets/images/members/esther.png
+    page: esther-barthel
+  eltjo:
+    name: Eltjo
+    display_name: Eltjo van Gulik
+    company: RawWorks
+    title: Principal Consultant
+    picture: assets/images/members/eltjo.png
+    page: eltjo-van-gulik
 
 # Build settings
 markdown: kramdown
