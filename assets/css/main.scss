@@ -1475,7 +1475,7 @@ $baseurl: '{{ site.baseurl }}';
 				white-space: nowrap;
 
 				> li {
-					display: inline-block;
+					display: flex;
 					padding: 0;
 
 					> a {
@@ -1492,16 +1492,16 @@ $baseurl: '{{ site.baseurl }}';
 							outline: 0;
 							position: relative;
 
-							&:after {
-								background-image: url('images/bars.svg');
-								background-position: right center;
-								background-repeat: no-repeat;
-								content: '';
-								display: inline-block;
-								height: 3.75em;
-								vertical-align: top;
-								width: 2em;
-							}
+							// &:after {
+							// 	background-image: url('images/bars.svg');
+							// 	background-position: right center;
+							// 	background-repeat: no-repeat;
+							// 	content: '';
+							// 	display: inline-block;
+							// 	height: 3.75em;
+							// 	vertical-align: top;
+							// 	width: 2em;
+							// }
 
 							@include breakpoint(small) {
 								padding: 0 1.5em;
