@@ -196,7 +196,6 @@ $baseurl: '{{ site.baseurl }}';
 			overflow-x: auto;
 		}
 	}
-
 	.member-layout {
 		display: inline-block; 
 		margin: auto;
@@ -1597,6 +1596,9 @@ $baseurl: '{{ site.baseurl }}';
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 560px;
 
 			a {
 				color: inherit;
