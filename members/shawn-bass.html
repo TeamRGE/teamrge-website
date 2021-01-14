@@ -3,4 +3,11 @@ layout: page
 menu: false
 title: Shawn Bass
 ---
-Shwan
+{% assign member = site.members['shawn'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>Shawn is a recognized expert in the End User Computing industry. With more than 20 years of consulting experience, he has worked with all facets of End User Computing (Terminal Services, Virtual Desktops, Application Virtualization and Enterprise Mobility Management) since the very beginning of these technologies. Shawn joined VMware in September 2014 to help lead and define a long-term strategy for VMware’s End User Computing products and works closely with the product team in implementing the strategy in the years to come. He is currently serving as CTO of Desktop Technologies in the EUC business unit.</p>
+</div>
+
+{% include social.html %}

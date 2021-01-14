@@ -3,4 +3,12 @@ layout: page
 menu: false
 title: Rick Dehlinger
 ---
-Rick
+{% assign member = site.members['rick'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>As a technologist and business athlete, Rick has worn many hats over his 20+ years in the industry, but at the end of the day, his passion lies in designing and building ‘stuff’. In this (perhaps inappropriately informal) context, ‘stuff’ is a broad reference, ranging from businesses to products/platforms, relationships to cloud systems, markets to satisfying user experiences.</p>
+    <p>Rick is  a career learner and a student of Agile frameworks and customer centric design – an empathetic, creative type who enjoys thinking big and going where none has gone before. He embrace leadership roles with conviction and a sense of responsibility, and Rick get great satisfaction out of nurturing people and inspiring them to greatness.</p>
+</div>
+
+{% include social.html %}

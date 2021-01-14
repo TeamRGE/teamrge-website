@@ -52,13 +52,14 @@ members:
     company: RawWorks
     title: Technical Evangelist
     picture: assets/images/members/ryan.png
+    page: ryan-ververs-bijkerk
     social:
-      web: https://www.logitblog.com
       twitter: https://twitter.com/logitblog
       linkedin: https://www.linkedin.com/in/ryanbijkerk
       github: https://github.com/RyanBijkerk
       reddit: https://www.reddit.com/u/ryanbijkerk
-    page: ryan-ververs-bijkerk
+      web1: https://www.logitblog.com
+      web2: https://www.go-euc.com
   barry:
     name: Barry
     display_name: Barry Schiffer
@@ -66,6 +67,9 @@ members:
     title: Pre-Sales Consultant
     picture: assets/images/members/barry.png
     page: barry-schiffer
+    social:
+      twitter: https://twitter.com/barryschiffer
+      linkedin: https://www.linkedin.com/in/barryschiffer/
   bram:
     name: Bram
     display_name: Bram Wolfs
@@ -73,6 +77,9 @@ members:
     title: Consultant
     picture: assets/images/members/bram.png
     page: bram-wolfs
+    social:
+      linkedin: https://www.linkedin.com/in/bramwolfs/
+      twitter: https://twitter.com/bramwolfs
   erik:
     name: Erik
     display_name: Erik Bonhorst
@@ -80,6 +87,8 @@ members:
     title: Senior Product Manager for EGX and Cloud Native Technologies
     picture: assets/images/members/erik.png
     page: erik-bonhorst
+    social:
+      linkedin: https://www.linkedin.com/in/erik-bohnhorst/
   frank:
     name: Frank
     display_name: Frank Anderson
@@ -87,6 +96,9 @@ members:
     title: Principal Technologist
     picture: assets/images/members/frank.png
     page: frank-anderson
+    social:
+      twitter: https://twitter.com/FrankCAnderson
+      linkedin: https://www.linkedin.com/in/andersonfrank/
   freek:
     name: Freek
     display_name: Freek Berson
@@ -94,6 +106,9 @@ members:
     title: Remoting Windows Evangelist
     picture: assets/images/members/freek.png
     page: freek-berson
+    social:
+      twitter: https://twitter.com/fberson
+      linkedin: https://www.linkedin.com/in/freekberson/
   gabe:
     name: Gabe
     display_name: Gabe Knuth
@@ -101,6 +116,9 @@ members:
     title: Sr. Product Line Marketing Manager
     picture: assets/images/members/gabe.png
     page: gabe-knuth
+    social:
+      twitter: https://twitter.com/GabeKnuth
+      linkedin: https://www.linkedin.com/in/gabeknuth/
   jits:
     name: Jits
     display_name: Jits Langedijk
@@ -108,6 +126,9 @@ members:
     title: Sr. Solution Architect
     picture: assets/images/members/jits.png
     page: jits-langedijk
+    social:
+      twitter: https://twitter.com/JRLangedijk
+      linkedin: https://www.linkedin.com/in/jitslangedijk/
   kristin:
     name: Kristin
     display_name: Kristin Griffin
@@ -115,6 +136,9 @@ members:
     title: Managing Partner
     picture: assets/images/members/kristin.png
     page: kristin-griffin
+    social:
+      twitter: https://twitter.com/KrisLGriffin
+      linkedin: https://www.linkedin.com/in/kristinlgriffin/
   magnar:
     name: Magnar
     display_name: Magnar Johnson
@@ -129,6 +153,9 @@ members:
     title: Senior Systemconsultant and Partner
     picture: assets/images/members/rasmus.png
     page: rasmus-raun-nielsen
+    social:
+      twitter: https://twitter.com/RBRConecto
+      linkedin: https://www.linkedin.com/in/rasmus-raun-nielsen-6592726/
   thomas:
     name: Thomas
     display_name: Thomas Poppelgaard
@@ -136,6 +163,9 @@ members:
     title: Independent Consultant and Technology Evangelist
     picture: assets/images/members/thomas.png
     page: thomas-poppelgaard
+    social:
+      twitter: https://twitter.com/_POPPELGAARD
+      linkedin: https://www.linkedin.com/in/thomaspoppelgaard/
   rick:
     name: Rick
     display_name: Rick Dehlinger
@@ -143,6 +173,9 @@ members:
     title: Principal Solution Architect, Strategic Alliances
     picture: assets/images/members/rick.png
     page: rick-dehlinger
+    social:
+      twitter: https://twitter.com/rickd4real
+      linkedin: https://www.linkedin.com/in/rickdehlinger/
   patrick:
     name: Patrick
     display_name: Patrick van den Born
@@ -150,6 +183,9 @@ members:
     title: Freelance Senior IT Consultant & IT Architect
     picture: assets/images/members/patrick.png
     page: patrick-van-den-born
+    social:
+      twitter: https://twitter.com/pvdnborn
+      linkedin: https://www.linkedin.com/in/patrick-van-den-born-2b3567a/
   rody:
     name: Rody
     display_name: Rody Kossen
@@ -157,6 +193,9 @@ members:
     title: Lead Consultant
     picture: assets/images/members/rody.png
     page: rody-kossen
+    social:
+      twitter: https://twitter.com/R_Kossen
+      linkedin: https://www.linkedin.com/in/rody-kossen-186b4b40/
   johan:
     name: Johan
     display_name: Johan van Amersfoort
@@ -164,6 +203,9 @@ members:
     title: Technologist EUC & AI
     picture: assets/images/members/johan.png
     page: johan-van-amersfoort
+    social:
+      twitter: https://twitter.com/vhojan
+      linkedin: https://www.linkedin.com/in/hojan/
   esther:
     name: Esther
     display_name: Esther Barthel
@@ -171,6 +213,9 @@ members:
     title: Solutions Architect
     picture: assets/images/members/esther.png
     page: esther-barthel
+    social:
+      twitter: https://twitter.com/virtuEs_IT
+      linkedin: https://www.linkedin.com/in/ebarthel/
   eltjo:
     name: Eltjo
     display_name: Eltjo van Gulik
@@ -178,6 +223,10 @@ members:
     title: Principal Consultant
     picture: assets/images/members/eltjo.png
     page: eltjo-van-gulik
+    social:
+      twitter: https://twitter.com/eltjovg
+      linkedin: https://www.linkedin.com/in/eltjovangulik/
+      web: https://www.go-euc.com
 
 # Videos:
 videos:

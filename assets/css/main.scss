@@ -217,6 +217,17 @@ $baseurl: '{{ site.baseurl }}';
 		border-radius: 50%;
 	}
 
+	.member-page-image {
+		float: left; 
+		width: 200px; 
+		margin-right: 30px; 
+		border-radius: 50%;
+	}
+
+	.member-page-social {
+		border-bottom: none;
+	}
+
 	.responsive-container {
 		position: relative;
 		overflow: hidden;

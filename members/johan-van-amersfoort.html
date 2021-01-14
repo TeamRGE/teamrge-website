@@ -3,4 +3,19 @@ layout: page
 menu: false
 title: Johan van Amersfoort
 ---
-Johan
+{% assign member = site.members['johan'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>My name is Johan van Amersfoort and I am the Bearded VDI Junkie!</p>
+    <p>Since 1999 I am part of the IT world. The first few years as a field engineer working with SBC products like WinFrame and MetaFrame and later mostly with TS/RDS based solutions.</p>
+    <p>In 2005 I had my first experience with VMware products (Workstation) and since then I got hooked. Especially when I saw my first vMotion.&nbsp;All infrastructures I worked with from that moment on had VMware products as a core part of the infrastructure. Next to Server Virtualization, I focussed on Application Virtualization with both ThinApp and Softgrid/App-V.</p>
+    <p>Late 2013, it was time to make a career change. But what? Actually, it was kind of easy. Mix Server Virtualization with SBC and Application Virtualization and what do you get? The answer is simple, <strong>End-User Computing</strong>. I applied for a job at <a href="http://www.itq.nl" rel="noopener noreferrer">ITQ</a>&nbsp;as a <a href="http://itq.nl/company/career/" rel="noopener noreferrer">Virtualization Consultant</a>, got hired and took my career to a next level. The 5 year after that were a rollercoaster. vExpert since 2015, VCIX/VCAP’s (5/6) on Data Center and Desktop &amp; Mobility, VMware EUC Champion awards, NVIDIA NGCA member and I achieved my ultimate goal: <a href="https://vhojan.nl/the-road-to-vcdx-part-1-committing-to-the-journe/">VCDX-DTM</a>.</p>
+    <p>I also enjoy being on stage. The last 5 years you might have seen me on VMUGs (North West UK, Belgium, Nordics), UserCons (Netherlands, Germany) and VMworlds. I’m also one of the founders of the <a href="https://veuctechcon.nl" rel="noopener">VMware EUC TechCon</a>, a Dutch community-driven initiative to share knowledge at events and online platforms such as Slack.</p>
+    <p>As EUC is going through a revolution with a lot of new tech that makes it more agile, robust, scalable, secure, manageable and pretty awesome, I will focus mainly on&nbsp;EUC while blogging. You can find posts about new tech, EUC automation, my personal experience and much more.</p>
+    <p>Next to tech, I have a passion for scuba diving and specifically watching sharks in their natural habitat. Sharks are a perfect example of how evolution works and a showcase for these famous words by Charles Darwin: “<em>It is not the strongest of the species that survives, nor the most intelligent; it is the one most adaptable to change.</em>”. Sharks have lived on our planet for more than 420 million years and are still here. That means that they adapted to new circumstances when they needed to. Something that not all species were able to do.</p>
+    <p>This is something that reflects my career and the choices I made until so far as well. By accepting that <em>change</em> itself in inevitable, I have used it for my benefit. And I will continue to do so. With T<em>he Year of VDI</em>&nbsp;finally commenced (in my honest opinion), I’ll continue to focus on this and the ecosystem around it.</p>
+    <p>To stay healthy and fit, you might also find me at the local CrossFit club or training outside with my bootcamp buddies.</p>
+</div>
+
+{% include social.html %}

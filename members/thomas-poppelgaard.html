@@ -3,4 +3,11 @@ layout: page
 menu: false
 title: Thomas Poppelgaard
 ---
-Thomas
+{% assign member = site.members['thomas'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>Thomas Poppelgaard was awarded the Microsoft Most Valuable Professional (MVP) award in 2015 and 2016, Citrix Technology Professional (CTP) award in 2013 and the RES Software Valuable Professional award since 2013. Thomas has 19 years of IT experience and currently works as a Technology Evangelist / Independent Consultant at his own company, Poppelgaard.com. He works with Advisory, Business development, IT-strategy, Pre-sales, Architectural designing, Planning, Implementation and Troubleshooting solutions within Citrix, VMware, Microsoft, NVIDIA/AMD/INTEL environments. He is also highly involved in Proof of Concepts to help prove why business should adapt new technologies.</p>
+</div>
+
+{% include social.html %}

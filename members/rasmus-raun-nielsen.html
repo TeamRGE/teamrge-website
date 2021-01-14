@@ -3,4 +3,11 @@ layout: page
 menu: false
 title: Rasmus Raun-Nielsen
 ---
-Rasmus
+{% assign member = site.members['rasmus'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>Rasmus implements, upgrades, and refines Citrix environments, from small and relatively simple installations to the more complex ones. No matter if it is from sizing to configuration, performance to features, it is always with the user experience in mind. He primarily works on design and implementations of the XenApp and XenDesktop products. Rasmus is a keen attendee of the EMEA GRID partner days and training events and travels across EMEA to keep NVIDIA updated on what partners and customers need.</p>
+</div>
+
+{% include social.html %}

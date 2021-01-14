@@ -3,4 +3,12 @@ layout: page
 menu: false
 title: Ruben Spruijt
 ---
-Ruben
+{% assign member = site.members['ruben'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>Ruben Spruijt is Field Chief Technology Officer at Frame, responsible for driving vision, technology evangelism and thought leadership with Frame customers, partners and communities. Mr. Spruijt is a well-regarded author, speaker, market analyst, technologist, and all-around geek. An established industry leader and luminary. He is a Microsoft Most Valuable Professional (MVP), NVIDIA GRID Community Advisors, VMware vExpert and was in the Citrix CTP program from 2008-2017.</p>
+    <p>He has presented more than 250 sessions at national and international events such as BriForum, Citrix iForum Japan, Citrix Synergy, Gartner Catalyst, Microsoft Ignite, Microsoft TechEd, NVIDIA GTC, and VMworld. Mr. Spruijt founded several independent industry analysis bodies including Project Virtual Reality Check (VRC), Team Remote Graphics Experts (TeamRGE), AppVirtGURU written and co-authoring multiple disruptive ‘Smackdown’ research whitepapers.  Ruben is an advisor for various start-ups in mobile, community Cloud industry and Remote User Experience Analytics.</p>
+</div>
+
+{% include social.html %}

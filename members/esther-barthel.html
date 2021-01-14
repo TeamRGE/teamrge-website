@@ -3,4 +3,16 @@ layout: page
 menu: false
 title: Esther Barthel
 ---
-Esther
+{% assign member = site.members['esther'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>Hi, my name is Esther Barthel and I founded cognition IT as a small company focused on sharing my passion for IT solutions with both the community and corporations. cognition IT is all about sharing the knowledge learned during the many projects I realized in my career to build even beter solutions and use the latest technologies and product features to enhance user experiences.</p>
+    <p>I’ve been working in different roles and functions as an IT consultant in the Netherlands since I finished my Master of Science in Computer Science in 1997.</p>
+    <p>I’ve worked as a web developer, database administrator and server administrator until I discovered how Server Based Computing (SBC) combined servers, desktops, and user experience into one solution. With a broad interest in different IT related topics, I decided to specialize in virtualization solutions. I’ve been consulting at many customer sites on solutions, such as SBC, VDI, and application and server virtualization for over ten years now and love to design and implement Citrix solutions for both small business and large enterprise infrastructures scaling from 100 up to 60000 users as a Solutions Architect.</p>
+    <p>Ever since I hosted introduction days for technical female student candidates, I’ve been sharing my passion and knowledge for IT. What started out as small internal meetings to report on the latest technologies has grown from technical blog posts into international presentations at Citrix User Groups and events like E2EVC and Citrix Synergy. I even took up the challenge to write my first technical book: <a href="http://www.packtpub.com/citrix-xenapp-6-5-expert-cookbook/book" title="Citrix XenApp 6.5 Expert Cookbook" target="_blank">Citrix XenApp 6.5 Expert Cookbook</a>, which offers a selection of recipes for experienced Citrix XenApp administrators to automate, monitor, troubleshoot, and performance advanced managing tasks for XenApp infrastructures.</p>
+    <p> I’m a Citrix Certified Expert – Virtualization (CCE-V), Citrix Certified Professional – Networking (CCP-N), Citrix Certified Professional – Mobility (CCP-M) and RES Software Certified Professional (RCP).</p>
+    <p> For my IT knowledge, experience, and passion I have been awarded by Citrix as a Citrix Technology Professional (CTP) and by Microsoft as a Most Valuable Professional (MVP).</p>
+</div>
+
+{% include social.html %}

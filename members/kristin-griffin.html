@@ -3,4 +3,12 @@ layout: page
 menu: false
 title: Kristin Griffin
 ---
-kristin
+{% assign member = site.members['kristin'] %}
+
+<img class="member-page-image" src="{{ site.url }}{{ member.picture | relative_url }}" alt="{{ member.display_name }}">
+<div>
+    <p>Kristin has worked for over 13 years as a sys admin, project manager, and IT consultant for small to medium sized businesses. She currently is a Microsoft MVP for Remote Desktop Services (and have been for since 2009).  Kristin co-authored the following books: Microsoft Windows 2008 Server Terminal Services Resource Kit and Microsoft Windows 2008 R2 Remote Desktop Services Resource Kit.</p>
+    <p>She has written articles on Powershell scripting, and was a contributing author for Mark Minasi’s Windows Server 2008 book series (I wrote a chapter on PKI) and also wrote a chapter for Mark’s Mastering Windows Server 2008 R2 book.</p>
+</div>
+
+{% include social.html %}
