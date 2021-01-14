@@ -1,0 +1,25 @@
+<ul class="icons">
+    {% for social in member.social %}
+    {% assign name = social[0] %}
+    {% assign value = social[1] %}
+    {% assign icon = 'fa-globe' %}
+    
+    {% case name %}
+    {% when 'twitter' %}
+        {% assign icon = 'fa-twitter' %}
+    {% when 'linkedin' %}
+        {% assign icon = 'fa-linkedin' %}
+    {% when 'reddit' %}
+        {% assign icon = 'fa-reddit' %}
+    {% when 'github' %}
+        {% assign icon = 'fa-github' %}
+    {% when 'github' %}
+        {% assign icon = 'fa-github' %}
+    {% when 'email' %}
+        {% assign icon = 'fa-envelope' %}
+        {% assign value = 'mailto:' | append: value %}
+    {% endcase %}
+        <li><a class="member-page-social" href="{{value}}" target="_blank"><span class="icon {{icon}} major"><span class="label">{{name}}</span></span></a></li>
+    {% endfor %}
+    
+</ul>
