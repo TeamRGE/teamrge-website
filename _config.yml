@@ -20,32 +20,32 @@ members:
     company: Nutanix
     title: Sr. Technologist
     picture: assets/images/members/ruben.png
+    page: ruben-spruijt
     social:
       twitter: https://twitter.com/rspruijt
       linkedin: https://www.linkedin.com/in/rspruijt
       email: ruben@rspruijt.com
-    page: ruben-spruijt
   shawn:
     name: Shawn
     display_name: Shawn Bass
     company: VMware
     title: CTO - End-User Computing
     picture: assets/images/members/shawn.png
+    page: shawn-bass
     social:
       twitter: https://twitter.com/shawnbass
       linkedin: https://www.linkedin.com/in/shawnbass/
       email: shawn@shawnbass.com
-    page: shawn-bass
   benny:
     name: Benny
     display_name: Dr. Benny Tritsch
     company: ControlUp
     title: Technical Evangelist
     picture: assets/images/members/benny.png
+    page: benny-tritsch
     social:
       twitter: https://twitter.com/drtritsch
       linkedin: https://www.linkedin.com/in/drtritsch/
-    page: benny-tritsch
   ryan:
     name: Ryan
     display_name: Ryan Ververs-Bijkerk
