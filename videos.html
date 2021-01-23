@@ -3,18 +3,22 @@ layout: page
 title: Videos
 ---
 
-{% for video in site.videos %}
 
-{% assign id = video[0] %}
-{% assign info = site.videos[id] %}
-<div>
-    <h2>{{info.title}}</h2>
-    <div class="responsive-container">
-        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/{{id}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videos-container">
+    {% for video in site.videos %}
+
+    {% assign id = video[0] %}
+    {% assign info = site.videos[id] %}
+    
+    <div class="videos-box">
+        <a class="videos-url" href="{{site.baseurl}}/videos/{{info.url}}.html" >
+            <img style="width: 310px;" src="https://img.youtube.com/vi/{{id}}/0.jpg">
+            <div>
+                <p class="videos-text">{{info.title}}</p>
+            </div>
+        </a>
     </div>
-    <br>
-    <p>{{info.description}}</p>
+    
+    {% endfor %}
 </div>
-
-{% endfor %}
 

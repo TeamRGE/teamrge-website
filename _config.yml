@@ -233,40 +233,52 @@ videos:
   xorivb_SSDI:
     title: 'TeamRGE 2020 - 12 NVIDIA Virtual Reality and EUC'
     description: 'By Thomas Poppelgaard. NVIDIA Virtual Reality in EUC environments.'
+    url: teamrge-2020-12-nvidia-virtual-reality-and-euc
   FtKeGh-oPRc:
     title: 'TeamRGE 2020 - 11 HTML5 redirection in remote sessions'
     description: 'By Esther Barthel & GO-EUC. With Adobe stopping support for Flash by the end of the year and Citrix recommending to switch to HTML5 redirection, I was interested to test whether the HTML 5 Video redirection would save CPU resource consumption on the VDA. With the help of GO-EUC I was able to test the effect of HTML5 Redirection and now proudly present the preliminary results.'
+    url: 'teamrge-2020-11-html5-redirection-in-remote-sessions'
   Xd0IZRcWiWo:
     title: 'TeamRGE 2020 - 10 RDP performance in GPU accelerated WVD sessions'
     description: 'By Benny Tritsch and Kristin Griffin. Over the last months, Benny and Kristin conducted several GPU-focused remote end-user experience benchmarking tests in Azure. Learn about the latest results and lessons learned.'
+    url: 'teamrge-2020-10-rdp-performance-in-gpu-accelerated-wvd-sessions'
   vL5hIO_Je5M:
     title: 'TeamRGE 2020 - 09 GPU partitioning in Azure NVv4'
     description: 'By Joe DaSilva (AMD). A quick peek under the hood of GPU partitioning as used in Microsoft’s Azure NVv4 instances based on AMD’s MxGPU technology.'
+    url: 'teamrge-2020-09-gpu-partitioning-in-azure-nvv4'
   sDvepW1x964:
     title: 'TeamRGE 2020 - 08 Update on NVIDIA GPUs for EUC'
     description: 'By Jits Langedijk (NVIDIA). Get up to speed with NVIDIA Virtual GPU. In this session you get to learn what NVIDIA has to offer for End User Computing solutions, for (mobile) workstations, datacenter, virtualization and cloud. Learn which GPU is best suited for your use case and if licensing applies to the use case.'
+    url: 'teamrge-2020-08-update-on-nvidia-gpus-for-euc'
   G8F4xInxD18:
     title: 'TeamRGE 2020 - 07 NVIDIA and AMD GPUs in Azure WVD'
     description: 'By Thomas Poppelgaard. NVIDIA and AMD GPUs in Azure WVD'
+    url: 'teamrge-2020-07-nvidia-and-amd-gpus-in-azure-wvd'
   KfjZNasLIKU:
     title: 'TeamRGE 2020 - 06 Remote graphic workloads and clients'
     description: 'By Rody Kossen & Patrick van den Born. As we add advanced GPUs to our virtual desktop environments, delivering the best user experience requires tweaking of remote display protocol settings like quality, compression, chroma subsampling, not to mention vendor-specific settings. But what about the different clients? In this intermediate-level session Rody Kossen and Patrick van den Born will show you the difference in user experience between clients and workloads. For the 2020 edition we’ve updated the session with the latest Citrix Virtual Apps and Desktops, VMware Horizon and Xi Frame protocols. You can also expect details about Windows Virtual Desktop and clients.'
+    url: 'teamrge-2020-06-remote-graphic-workloads-and-clients'
   FbEooETsdc0:
     title: 'TeamRGE 2020 - 05 The real race against round trip time'
     description: 'By Ryan Ververs-Bijkerk. This will be the race of the year on the legendary Dutch race track, Zandvoort. The race is against our worst enemy, round trip time. This session will show and explain the negative effect of round trip time when delivering remote graphics intense applications from the public cloud.'
+    url: 'teamrge-2020-05-the-real-race-against-round-trip-time'
   w4xVBCuZOZA:
     title: 'TeamRGE 2020 - 04 Connection Experience Indicator for RDS and WVD'
     description: 'By Bram Wolfs. In this session Bram shows you what the Connection Experience Indicator is and how you can configure and use it.'
+    url: 'teamrge-2020-04-connection-experience-indicator-for-rds-and-wvd'
   r8Ob1_mn6WA:
     title: 'TeamRGE 2020 - 03 Why GPUs matter in EUC environments'
     description: 'By Benny Tritsch & Rody Kossen. In this geeky session Benny and Rody will show real-world examples of what the benefits of GPUs are in remoting environments.'
+    url: 'teamrge-2020-03-why-gpus-matter-in-euc-environments'
   MaBJZ-dT9Yo:
     title: 'TeamRGE 2020 - 02 How Azure, AWS and GCP impact VDI and DaaS'
     description: 'By Ruben Spruijt. What does it really mean from a performance perspective to host traditional Windows applications and desktops in the cloud? You will learn why and how Azure, AWS and GCP deliver different storage performance and GPU options for VDI and DaaS. This unique information is key for solution design, sizing and managing VDI/DaaS performance expectations.' 
+    url: 'teamrge-2020-02-how-azure-aws-and-gcp-impact-vdi-and-daas'
   NZcJoMNSwdg:
     title: 'TeamRGE 2020 - 01 Opening Keynote'
     description: 'By Ruben Spruijt & Benny Tritsch. In this session, Benny and Ruben kick off the TeamRGE 2020 virtual event with a rundown of the most important driving factors in delivering a good remote user experience today. They also share some results of the latest VDI Like a Pro survey.'
-                      
+    url: 'teamrge-2020-01-opening-keynote'
+             
 # Build settings
 markdown: kramdown
 #sass:

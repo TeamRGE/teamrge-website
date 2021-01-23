@@ -228,6 +228,36 @@ $baseurl: '{{ site.baseurl }}';
 		border-bottom: none;
 	}
 
+	.video-container {
+		max-width: 1000px; 
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
+	.videos-container {
+		width: 100%; 
+		text-align: center;
+	}
+
+	.videos-box {
+		width: 320px; 
+		padding: 10px; 
+		display: inline-block; 
+		text-align: left
+	}
+
+	.videos-url {
+		border-bottom: none;
+	}
+
+	.videos-text {
+		overflow: hidden; 
+		text-overflow: ellipsis; 
+		display: -webkit-box; 
+		-webkit-line-clamp: 2; 
+		-webkit-box-orient: vertical;
+	}
+
 	.responsive-container {
 		position: relative;
 		overflow: hidden;
