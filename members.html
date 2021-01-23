@@ -7,30 +7,21 @@ title: Members
 </div>
 
 
-<div class="member-layout">
-
+<div class="member-layout">    
     {% assign members = site.members | sort %}
     {% for member in members %}
     {% assign name = member[0] %}
     {% assign info = site.members[name] %}
         <div class="member-box" >
-            <diV>
+            <div>
                <a href="{{site.baseurl}}/members/{{info.page}}"><img class="member-box-image" src="{{ site.baseurl }}/{{ info.picture }}" alt="{{ info.display_name }}"></a>
-            </diV>
+            </div>
             <div>
                 <b>{{ info.display_name }}</b>
             </div>
             <div>
                 {{ info.title }} at {{ info.company }}
             </div>
-            
-
-        </div>
-        
-        
-    
-    
+        </div> 
     {% endfor %}
-
-
 </div>
