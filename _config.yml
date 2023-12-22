@@ -1,7 +1,7 @@
 # Site settings
 title: TeamRGE
 description: |
-  The industry experts with focus on Remoting Graphics for Virtual Desktops and Applications.
+  The industry experts with focus on remoting graphics, and GPUs for virtual desktops and applications.
 owner: TeamRGE # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
 email: team@teamrge.com
@@ -272,13 +272,13 @@ videos:
     url: 'teamrge-2020-03-why-gpus-matter-in-euc-environments'
   MaBJZ-dT9Yo:
     title: 'TeamRGE 2020 - 02 How Azure, AWS and GCP impact VDI and DaaS'
-    description: 'By Ruben Spruijt. What does it really mean from a performance perspective to host traditional Windows applications and desktops in the cloud? You will learn why and how Azure, AWS and GCP deliver different storage performance and GPU options for VDI and DaaS. This unique information is key for solution design, sizing and managing VDI/DaaS performance expectations.' 
+    description: 'By Ruben Spruijt. What does it really mean from a performance perspective to host traditional Windows applications and desktops in the cloud? You will learn why and how Azure, AWS and GCP deliver different storage performance and GPU options for VDI and DaaS. This unique information is key for solution design, sizing and managing VDI/DaaS performance expectations.'
     url: 'teamrge-2020-02-how-azure-aws-and-gcp-impact-vdi-and-daas'
   NZcJoMNSwdg:
     title: 'TeamRGE 2020 - 01 Opening Keynote'
     description: 'By Ruben Spruijt & Benny Tritsch. In this session, Benny and Ruben kick off the TeamRGE 2020 virtual event with a rundown of the most important driving factors in delivering a good remote user experience today. They also share some results of the latest VDI Like a Pro survey.'
     url: 'teamrge-2020-01-opening-keynote'
-             
+
 # Build settings
 markdown: kramdown
 #sass:
