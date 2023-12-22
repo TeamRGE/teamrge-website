@@ -17,8 +17,8 @@ members:
   ruben:
     name: Ruben
     display_name: Ruben Spruijt
-    company: Nutanix
-    title: Sr. Technologist
+    company: Dizzion
+    title: Field CTO
     picture: assets/images/members/ruben.png
     page: ruben-spruijt
     social:
@@ -29,7 +29,7 @@ members:
     name: Shawn
     display_name: Shawn Bass
     company: VMware
-    title: CTO - End-User Computing
+    title: start-up advisor and former EUC CTO of Desktop Technologies
     picture: assets/images/members/shawn.png
     page: shawn-bass
     social:
@@ -49,7 +49,7 @@ members:
   ryan:
     name: Ryan
     display_name: Ryan Ververs-Bijkerk
-    company: RawWorks
+    company: GO-INIT
     title: Technical Evangelist
     picture: assets/images/members/ryan.png
     page: ryan-ververs-bijkerk
@@ -60,16 +60,6 @@ members:
       reddit: https://www.reddit.com/u/ryanbijkerk
       web1: https://www.logitblog.com
       web2: https://www.go-euc.com
-  barry:
-    name: Barry
-    display_name: Barry Schiffer
-    company: eG Innovations
-    title: Pre-Sales Consultant
-    picture: assets/images/members/barry.png
-    page: barry-schiffer
-    social:
-      twitter: https://twitter.com/barryschiffer
-      linkedin: https://www.linkedin.com/in/barryschiffer/
   bram:
     name: Bram
     display_name: Bram Wolfs
@@ -80,55 +70,6 @@ members:
     social:
       linkedin: https://www.linkedin.com/in/bramwolfs/
       twitter: https://twitter.com/bramwolfs
-  erik:
-    name: Erik
-    display_name: Erik Bonhorst
-    company: NVIDIA
-    title: Senior Product Manager for EGX and Cloud Native Technologies
-    picture: assets/images/members/erik.png
-    page: erik-bonhorst
-    social:
-      linkedin: https://www.linkedin.com/in/erik-bohnhorst/
-  frank:
-    name: Frank
-    display_name: Frank Anderson
-    company: NetApp
-    title: Principal Technologist
-    picture: assets/images/members/frank.png
-    page: frank-anderson
-    social:
-      twitter: https://twitter.com/FrankCAnderson
-      linkedin: https://www.linkedin.com/in/andersonfrank/
-  freek:
-    name: Freek
-    display_name: Freek Berson
-    company: Wortell
-    title: Remoting Windows Evangelist
-    picture: assets/images/members/freek.png
-    page: freek-berson
-    social:
-      twitter: https://twitter.com/fberson
-      linkedin: https://www.linkedin.com/in/freekberson/
-  gabe:
-    name: Gabe
-    display_name: Gabe Knuth
-    company: VMware
-    title: Sr. Product Line Marketing Manager
-    picture: assets/images/members/gabe.png
-    page: gabe-knuth
-    social:
-      twitter: https://twitter.com/GabeKnuth
-      linkedin: https://www.linkedin.com/in/gabeknuth/
-  jits:
-    name: Jits
-    display_name: Jits Langedijk
-    company: NVIDIA
-    title: Sr. Solution Architect
-    picture: assets/images/members/jits.png
-    page: jits-langedijk
-    social:
-      twitter: https://twitter.com/JRLangedijk
-      linkedin: https://www.linkedin.com/in/jitslangedijk/
   kristin:
     name: Kristin
     display_name: Kristin Griffin
@@ -146,16 +87,6 @@ members:
     title: Owner
     picture: assets/images/members/magnar.png
     page: magnar-johnson
-  rasmus:
-    name: Rasmus
-    display_name: Rasmus Raun-Nielsen
-    company: Conecto A/S
-    title: Senior Systemconsultant and Partner
-    picture: assets/images/members/rasmus.png
-    page: rasmus-raun-nielsen
-    social:
-      twitter: https://twitter.com/RBRConecto
-      linkedin: https://www.linkedin.com/in/rasmus-raun-nielsen-6592726/
   thomas:
     name: Thomas
     display_name: Thomas Poppelgaard
@@ -166,16 +97,6 @@ members:
     social:
       twitter: https://twitter.com/_POPPELGAARD
       linkedin: https://www.linkedin.com/in/thomaspoppelgaard/
-  rick:
-    name: Rick
-    display_name: Rick Dehlinger
-    company: Citrix
-    title: Principal Solution Architect, Strategic Alliances
-    picture: assets/images/members/rick.png
-    page: rick-dehlinger
-    social:
-      twitter: https://twitter.com/rickd4real
-      linkedin: https://www.linkedin.com/in/rickdehlinger/
   patrick:
     name: Patrick
     display_name: Patrick van den Born
@@ -189,8 +110,8 @@ members:
   rody:
     name: Rody
     display_name: Rody Kossen
-    company: PQR
-    title: Lead Consultant
+    company: Citrix
+    title: Senior Principal Quality Engineer
     picture: assets/images/members/rody.png
     page: rody-kossen
     social:
@@ -219,8 +140,8 @@ members:
   eltjo:
     name: Eltjo
     display_name: Eltjo van Gulik
-    company: RawWorks
-    title: Principal Consultant
+    company: Citrix
+    title: Principal Product Manager for HDX & Graphics
     picture: assets/images/members/eltjo.png
     page: eltjo-van-gulik
     social:
