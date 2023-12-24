@@ -9,16 +9,15 @@ title: Videos
 
     {% assign id = video[0] %}
     {% assign info = site.videos[id] %}
-    
+
     <div class="videos-box">
-        <a class="videos-url" href="{{site.baseurl}}/videos/{{info.url}}.html" >
+        <a class="videos-url" href="{{site.baseurl}}/videos/{{info.url}}/" >
             <img style="width: 310px;" src="https://img.youtube.com/vi/{{id}}/0.jpg">
             <div>
                 <p class="videos-text">{{info.title}}</p>
             </div>
         </a>
     </div>
-    
+
     {% endfor %}
 </div>
-
