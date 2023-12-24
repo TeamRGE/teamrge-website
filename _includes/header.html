@@ -6,12 +6,12 @@
 
       <li class="special">
         <a href="{{site.baseurl}}/index.html#about" class="menuToggle"><span>About <i class="fa fa-info"></i></span></a>
-        <a href="{{site.baseurl}}/members.html" class="menuToggle"><span>Members <i class="fa fa-group"></i></span></a>
+        <a href="{{site.baseurl}}/members/" class="menuToggle"><span>Members <i class="fa fa-group"></i></span></a>
 
         <a href="#menu"><span>Menu <i class="fa fa-bars"></i></span></a>
         <div id="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             {% for my_page in site.pages  %}
             {% if my_page.title and my_page.menu != false %}
             <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>

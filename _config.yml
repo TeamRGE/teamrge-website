@@ -202,8 +202,15 @@ videos:
 
 # Build settings
 markdown: kramdown
+permalink: /:title/
 #sass:
 #  style: compressed
 
 plugins:
   - jekyll-redirect-from
+
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
