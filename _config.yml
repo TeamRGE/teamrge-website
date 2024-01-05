@@ -70,16 +70,6 @@ members:
     social:
       linkedin: https://www.linkedin.com/in/bramwolfs/
       twitter: https://twitter.com/bramwolfs
-  kristin:
-    name: Kristin
-    display_name: Kristin Griffin
-    company: RDS Gurus
-    title: Managing Partner
-    picture: assets/images/members/kristin.png
-    page: kristin-griffin
-    social:
-      twitter: https://twitter.com/KrisLGriffin
-      linkedin: https://www.linkedin.com/in/kristinlgriffin/
   magnar:
     name: Magnar
     display_name: Magnar Johnson
