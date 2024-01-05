@@ -138,7 +138,15 @@ members:
       twitter: https://twitter.com/eltjovg
       linkedin: https://www.linkedin.com/in/eltjovangulik/
       web: https://www.go-euc.com
-
+  joe:
+    name: Joe
+    display_name: Joe DaSilva
+    company: AMD
+    title: PMTS, Solutions Architect, Cloud Graphics
+    picture: assets/images/members/joe.png
+    page: joe-dasilva
+    social:
+      linkedin: https://www.linkedin.com/in/joe-dasilva-p-eng-a8963418/
 # Videos:
 videos:
   xorivb_SSDI:
