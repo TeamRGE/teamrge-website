@@ -39,8 +39,8 @@ members:
   benny:
     name: Benny
     display_name: Dr. Benny Tritsch
-    company: ControlUp
-    title: Technical Evangelist
+    company: Dr. Tritsch IT Consulting
+    title: Managing Director
     picture: assets/images/members/benny.png
     page: benny-tritsch
     social:
