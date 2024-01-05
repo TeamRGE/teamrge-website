@@ -105,7 +105,6 @@ members:
     picture: assets/images/members/rody.png
     page: rody-kossen
     social:
-      twitter: https://twitter.com/R_Kossen
       linkedin: https://www.linkedin.com/in/rody-kossen-186b4b40/
   johan:
     name: Johan
