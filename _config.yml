@@ -87,16 +87,6 @@ members:
     social:
       twitter: https://twitter.com/_POPPELGAARD
       linkedin: https://www.linkedin.com/in/thomaspoppelgaard/
-  patrick:
-    name: Patrick
-    display_name: Patrick van den Born
-    company: van den Born IT Consultancy
-    title: Freelance Senior IT Consultant & IT Architect
-    picture: assets/images/members/patrick.png
-    page: patrick-van-den-born
-    social:
-      twitter: https://twitter.com/pvdnborn
-      linkedin: https://www.linkedin.com/in/patrick-van-den-born-2b3567a/
   rody:
     name: Rody
     display_name: Rody Kossen
