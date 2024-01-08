@@ -73,8 +73,8 @@ members:
   magnar:
     name: Magnar
     display_name: Magnar Johnson
-    company: Firstpoint Bergen
-    title: Owner
+    company: Sopra Steria
+    title: Manager & Solution Architect
     picture: assets/images/members/magnar.png
     page: magnar-johnson
   thomas:
